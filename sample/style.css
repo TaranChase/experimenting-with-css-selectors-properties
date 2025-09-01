@@ -1,0 +1,86 @@
+/* Typography */
+body {
+  font-family:Arial, Helvetica, sans-serif;    /*Changes font of content within the body of the webpage*/
+  font-size: 18px;             /* Changes text size */
+  line-height: 1.6;            /* Controls spacing between lines */
+  color: #333;               /* Controls text color. Used hexadecimal color value */
+  text-align: center;          /* Centralizes text */
+  background-color: #FFE5E0;  /* Changes the background color of entire webpage */           
+}
+
+
+h1 {
+  text-transform: uppercase;   /* Capitalizes all letters */
+  letter-spacing: 3px;         /* Controls spacing between text/char */
+}
+
+
+header {
+  background-color: #383131;  /* Changes headers background color */
+  color: rgb(255, 255, 255);  /* Changes headers font-color. Used RGB color value */
+  padding: 30px;                /* Implements spacing inside an element */
+}
+
+
+p {
+  text-shadow: 1px 1px 3px rgba(40, 0, 170, 0.5);   /* Adds a shadow behind the text */
+
+}
+
+
+img {
+  border-radius: 10px;           /* Produces rounded/curved corners */
+}
+
+#main-content {
+  width: 90%;                         /* Sets how wide the element is */ 
+  margin: 20px auto;                  /* Centralizes horizontally*/
+  padding: 25px;                      /* Spacing between the content and the border */
+  border: 1px solid hsl(0, 0%, 75%);  /* Light border outline*/
+  box-sizing:content-box;               /* Includes padding in width */
+}
+
+
+p {
+  margin-bottom: 15px;                /* Space between paragraphs */
+}
+
+ul, ol {
+    text-align: center;             /* centers the list text */
+    list-style: inside;             /* Aligns bullet points/number with text */
+}
+
+
+nav {
+  display: flex;                      /* flexbox layout */
+  justify-content: center;            /* Centers links horizontally */
+  gap: 20px;                          /* Evens spacing between links */
+
+}
+
+nav ul {
+    list-style: none;                  /* Removes any bullet points */
+}                                      
+
+nav li {
+    display: inline-block;             /* Places links side by side in navbar */
+    margin: 0 15px;                    /* spaces between the links */
+}
+
+footer {
+  display: flex;                      /* flexbox layout */
+  justify-content: space-around;      /* Spread items evenly */
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+
+#details {
+  display: grid;        /* CSS Grid layout */
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  gap: 20px;  /* CReates spaces between the grid items */
+  text-align: center;   /* Centralizes text inside each grid cell. */
+  background: #eee;
+  padding: 20px;
+}
+
